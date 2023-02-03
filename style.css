@@ -18,7 +18,7 @@ body{
 
 .headline::before{
     content: "";
-    background-image: url("semantic.jpg");
+    background-image: url("semantic-structure-hartenfeller.avif");
     background-size: cover;
     position: absolute;
     top: 0px;
