@@ -1,0 +1,64 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body{
+  background-color: gainsboro;
+}
+
+.headline {
+    position: relative;
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    position: top;
+}
+
+.headline::before{
+    content: "";
+    background-image: url("pics/semantic.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3; 
+}
+
+h1 {
+    position: relative;
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    position: top;
+  }
+
+  h2 {
+    color: rgb(90, 147, 208);
+    text-align: center;
+  }
+
+  table {
+    border: 2px solid rgb(90, 147, 208);
+    width: 650px;
+    margin: 0 auto;
+  }
+
+  thead {
+    background-color: rgb(149, 194, 209);
+  }
+
+  td {
+    border-top: 1px solid rgb(149, 194, 209);
+  }
+
+  .text {
+    font-family: monospace;
+    font-weight: 400;
+    background-color: beige;
+  }
